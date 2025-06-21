@@ -1,0 +1,1 @@
+{"level":"error","message":"Failed to initialize Azure OpenAI client: AzureKeyCredential is not a constructor","service":"news-delivery-agent","timestamp":"2025-06-21 17:01:40"}

@@ -1,0 +1,318 @@
+{
+  "trusted_sources": [
+    {
+      "id": "bbc-news",
+      "name": "BBC News",
+      "url": "https://www.bbc.com/news",
+      "category": "general",
+      "language": "en",
+      "country": "gb",
+      "reliability_score": 9,
+      "bias_rating": "center",
+      "description": "The British Broadcasting Corporation (BBC) is a British public service broadcaster. Its news division provides comprehensive global coverage with a reputation for accuracy and impartiality."
+    },
+    {
+      "id": "reuters",
+      "name": "Reuters",
+      "url": "https://www.reuters.com",
+      "category": "general",
+      "language": "en",
+      "country": "international",
+      "reliability_score": 9.5,
+      "bias_rating": "center",
+      "description": "Reuters is an international news organization that provides breaking news, analysis, and enterprise reporting from around the world. Known for its objective, fact-based reporting."
+    },
+    {
+      "id": "associated-press",
+      "name": "Associated Press",
+      "url": "https://apnews.com",
+      "category": "general",
+      "language": "en",
+      "country": "us",
+      "reliability_score": 9.5,
+      "bias_rating": "center",
+      "description": "The Associated Press is an independent, not-for-profit news cooperative. AP journalists in more than 100 countries tell the world's stories, from breaking news to investigative reporting."
+    },
+    {
+      "id": "the-washington-post",
+      "name": "The Washington Post",
+      "url": "https://www.washingtonpost.com",
+      "category": "general",
+      "language": "en",
+      "country": "us",
+      "reliability_score": 8,
+      "bias_rating": "center-left",
+      "description": "The Washington Post is an American daily newspaper with a particular emphasis on national politics and the federal government. It has won 47 Pulitzer Prizes."
+    },
+    {
+      "id": "the-new-york-times",
+      "name": "The New York Times",
+      "url": "https://www.nytimes.com",
+      "category": "general",
+      "language": "en",
+      "country": "us",
+      "reliability_score": 8,
+      "bias_rating": "center-left",
+      "description": "The New York Times is an American newspaper based in New York City with worldwide influence and readership. It has won 130 Pulitzer Prizes, more than any other newspaper."
+    },
+    {
+      "id": "the-guardian",
+      "name": "The Guardian",
+      "url": "https://www.theguardian.com",
+      "category": "general",
+      "language": "en",
+      "country": "gb",
+      "reliability_score": 8,
+      "bias_rating": "center-left",
+      "description": "The Guardian is a British daily newspaper known for its investigative journalism, international coverage, and digital innovation. It follows a left-leaning editorial stance."
+    },
+    {
+      "id": "the-economist",
+      "name": "The Economist",
+      "url": "https://www.economist.com",
+      "category": "business",
+      "language": "en",
+      "country": "gb",
+      "reliability_score": 9,
+      "bias_rating": "center",
+      "description": "The Economist is an international weekly newspaper that focuses on current affairs, international business, politics, and technology. Known for its detailed analysis and global perspective."
+    },
+    {
+      "id": "financial-times",
+      "name": "Financial Times",
+      "url": "https://www.ft.com",
+      "category": "business",
+      "language": "en",
+      "country": "gb",
+      "reliability_score": 9,
+      "bias_rating": "center",
+      "description": "The Financial Times is an international daily newspaper focused on business and economic news. Known for its in-depth analysis of financial markets and global business trends."
+    },
+    {
+      "id": "bloomberg",
+      "name": "Bloomberg",
+      "url": "https://www.bloomberg.com",
+      "category": "business",
+      "language": "en",
+      "country": "us",
+      "reliability_score": 8.5,
+      "bias_rating": "center",
+      "description": "Bloomberg delivers business and markets news, data, analysis, and video worldwide. It provides financial news and information, including real-time and historic price data."
+    },
+    {
+      "id": "the-wall-street-journal",
+      "name": "The Wall Street Journal",
+      "url": "https://www.wsj.com",
+      "category": "business",
+      "language": "en",
+      "country": "us",
+      "reliability_score": 8.5,
+      "bias_rating": "center-right",
+      "description": "The Wall Street Journal is an American business-focused, international daily newspaper. It covers business and financial news as well as national and international events."
+    },
+    {
+      "id": "cnn",
+      "name": "CNN",
+      "url": "https://www.cnn.com",
+      "category": "general",
+      "language": "en",
+      "country": "us",
+      "reliability_score": 7,
+      "bias_rating": "center-left",
+      "description": "CNN (Cable News Network) is an American news-based pay television channel. It was the first all-news television channel in the United States."
+    },
+    {
+      "id": "fox-news",
+      "name": "Fox News",
+      "url": "https://www.foxnews.com",
+      "category": "general",
+      "language": "en",
+      "country": "us",
+      "reliability_score": 6,
+      "bias_rating": "right",
+      "description": "Fox News is an American conservative cable television news channel. It covers breaking news as well as political and business news."
+    },
+    {
+      "id": "nbc-news",
+      "name": "NBC News",
+      "url": "https://www.nbcnews.com",
+      "category": "general",
+      "language": "en",
+      "country": "us",
+      "reliability_score": 7.5,
+      "bias_rating": "center-left",
+      "description": "NBC News is the news division of the American broadcast television network NBC. It operates under NBCUniversal News Group, a division of NBCUniversal."
+    },
+    {
+      "id": "abc-news",
+      "name": "ABC News",
+      "url": "https://abcnews.go.com",
+      "category": "general",
+      "language": "en",
+      "country": "us",
+      "reliability_score": 7.5,
+      "bias_rating": "center-left",
+      "description": "ABC News is the news division of the American Broadcasting Company. It provides news and features content for radio stations, daily news broadcasts, and digital platforms."
+    },
+    {
+      "id": "al-jazeera-english",
+      "name": "Al Jazeera English",
+      "url": "https://www.aljazeera.com",
+      "category": "general",
+      "language": "en",
+      "country": "qa",
+      "reliability_score": 7.5,
+      "bias_rating": "center",
+      "description": "Al Jazeera English is an international news channel with over seventy bureaus around the world. It provides a Middle Eastern perspective on international news."
+    },
+    {
+      "id": "the-hill",
+      "name": "The Hill",
+      "url": "https://thehill.com",
+      "category": "politics",
+      "language": "en",
+      "country": "us",
+      "reliability_score": 7.5,
+      "bias_rating": "center",
+      "description": "The Hill is an American political newspaper and website published in Washington, D.C. It focuses on politics, policy, business and international relations."
+    },
+    {
+      "id": "politico",
+      "name": "Politico",
+      "url": "https://www.politico.com",
+      "category": "politics",
+      "language": "en",
+      "country": "us",
+      "reliability_score": 8,
+      "bias_rating": "center",
+      "description": "Politico is an American political journalism company that covers politics and policy in the United States and internationally. It distributes content via television, the Internet, newspaper, and radio."
+    },
+    {
+      "id": "npr",
+      "name": "NPR",
+      "url": "https://www.npr.org",
+      "category": "general",
+      "language": "en",
+      "country": "us",
+      "reliability_score": 8.5,
+      "bias_rating": "center-left",
+      "description": "NPR (National Public Radio) is an American privately and publicly funded non-profit media organization. It produces and distributes news and cultural programming."
+    },
+    {
+      "id": "bbc-science",
+      "name": "BBC Science",
+      "url": "https://www.bbc.com/news/science_and_environment",
+      "category": "science",
+      "language": "en",
+      "country": "gb",
+      "reliability_score": 9,
+      "bias_rating": "center",
+      "description": "BBC Science covers scientific breakthroughs, environmental issues, and technological innovations from around the world."
+    },
+    {
+      "id": "scientific-american",
+      "name": "Scientific American",
+      "url": "https://www.scientificamerican.com",
+      "category": "science",
+      "language": "en",
+      "country": "us",
+      "reliability_score": 9,
+      "bias_rating": "center",
+      "description": "Scientific American is an American popular science magazine. It includes articles from scientists and journalists on science, technology, and policy topics."
+    },
+    {
+      "id": "wired",
+      "name": "Wired",
+      "url": "https://www.wired.com",
+      "category": "technology",
+      "language": "en",
+      "country": "us",
+      "reliability_score": 8,
+      "bias_rating": "center-left",
+      "description": "Wired is a monthly American magazine that focuses on how emerging technologies affect culture, the economy, and politics. It covers technology, business, and design."
+    },
+    {
+      "id": "techcrunch",
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com",
+      "category": "technology",
+      "language": "en",
+      "country": "us",
+      "reliability_score": 7.5,
+      "bias_rating": "center",
+      "description": "TechCrunch is an American online newspaper focusing on high tech and startup companies. It reports on business related to tech, technology news, and analysis of emerging trends."
+    },
+    {
+      "id": "ars-technica",
+      "name": "Ars Technica",
+      "url": "https://arstechnica.com",
+      "category": "technology",
+      "language": "en",
+      "country": "us",
+      "reliability_score": 8.5,
+      "bias_rating": "center",
+      "description": "Ars Technica is a website covering news and opinions in technology, science, politics, and society. It publishes news, reviews, and guides on issues such as computer hardware and software, science, technology policy, and tech culture."
+    },
+    {
+      "id": "espn",
+      "name": "ESPN",
+      "url": "https://www.espn.com",
+      "category": "sports",
+      "language": "en",
+      "country": "us",
+      "reliability_score": 8,
+      "bias_rating": "center",
+      "description": "ESPN is an American multinational basic cable sports channel. The network focuses on sports-related programming including live and pre-taped event telecasts, sports talk shows, and other original programming."
+    },
+    {
+      "id": "bbc-sport",
+      "name": "BBC Sport",
+      "url": "https://www.bbc.com/sport",
+      "category": "sports",
+      "language": "en",
+      "country": "gb",
+      "reliability_score": 9,
+      "bias_rating": "center",
+      "description": "BBC Sport is a division of the BBC that provides sports coverage. It covers a wide range of sports and competitions, including football, cricket, rugby, tennis, and more."
+    }
+  ],
+  "source_categories": [
+    "general",
+    "business",
+    "technology",
+    "entertainment",
+    "sports",
+    "science",
+    "health",
+    "politics"
+  ],
+  "bias_ratings": [
+    {
+      "rating": "left",
+      "description": "Strong liberal bias in story selection and presentation"
+    },
+    {
+      "rating": "center-left",
+      "description": "Moderate liberal bias in story selection and presentation"
+    },
+    {
+      "rating": "center",
+      "description": "Minimal bias, balanced presentation of issues"
+    },
+    {
+      "rating": "center-right",
+      "description": "Moderate conservative bias in story selection and presentation"
+    },
+    {
+      "rating": "right",
+      "description": "Strong conservative bias in story selection and presentation"
+    }
+  ],
+  "reliability_scale": {
+    "9-10": "Very High - Factual reporting, thorough sourcing, minimal errors",
+    "7-8": "High - Generally factual with occasional errors that are corrected",
+    "5-6": "Medium - Mix of fact reporting and opinion, may contain some errors",
+    "3-4": "Low - Contains misleading information, poor sourcing, frequent errors",
+    "1-2": "Very Low - Propaganda, misinformation, or consistent factual errors"
+  }
+}

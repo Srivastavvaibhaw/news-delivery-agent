@@ -1,0 +1,337 @@
+{
+  "categories": [
+    {
+      "id": "general",
+      "name": "General",
+      "description": "General news coverage including top stories from around the world",
+      "icon": "newspaper",
+      "color": "#2196F3",
+      "keywords": [
+        "news",
+        "headlines",
+        "current events",
+        "breaking news"
+      ],
+      "default_priority": 10
+    },
+    {
+      "id": "business",
+      "name": "Business",
+      "description": "Business news, financial markets, economy, corporate developments, and industry trends",
+      "icon": "briefcase",
+      "color": "#4CAF50",
+      "keywords": [
+        "business",
+        "economy",
+        "markets",
+        "finance",
+        "stocks",
+        "investing",
+        "companies",
+        "industry",
+        "corporate",
+        "trade",
+        "commerce"
+      ],
+      "default_priority": 8
+    },
+    {
+      "id": "technology",
+      "name": "Technology",
+      "description": "Technology news, innovations, digital trends, and developments in the tech industry",
+      "icon": "microchip",
+      "color": "#9C27B0",
+      "keywords": [
+        "technology",
+        "tech",
+        "digital",
+        "software",
+        "hardware",
+        "ai",
+        "artificial intelligence",
+        "machine learning",
+        "internet",
+        "computing",
+        "innovation",
+        "gadgets"
+      ],
+      "default_priority": 8
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "description": "Scientific discoveries, research breakthroughs, and advancements across scientific disciplines",
+      "icon": "flask",
+      "color": "#00BCD4",
+      "keywords": [
+        "science",
+        "research",
+        "discovery",
+        "study",
+        "experiment",
+        "innovation",
+        "physics",
+        "chemistry",
+        "biology",
+        "astronomy",
+        "environment"
+      ],
+      "default_priority": 7
+    },
+    {
+      "id": "health",
+      "name": "Health",
+      "description": "Health news, medical research, wellness, public health issues, and healthcare developments",
+      "icon": "heartbeat",
+      "color": "#F44336",
+      "keywords": [
+        "health",
+        "medical",
+        "medicine",
+        "wellness",
+        "healthcare",
+        "disease",
+        "treatment",
+        "research",
+        "drugs",
+        "doctors",
+        "hospitals",
+        "public health"
+      ],
+      "default_priority": 7
+    },
+    {
+      "id": "entertainment",
+      "name": "Entertainment",
+      "description": "Entertainment news, celebrity updates, film, television, music, and arts coverage",
+      "icon": "film",
+      "color": "#FF9800",
+      "keywords": [
+        "entertainment",
+        "celebrity",
+        "film",
+        "movie",
+        "television",
+        "tv",
+        "music",
+        "arts",
+        "culture",
+        "hollywood",
+        "streaming",
+        "shows"
+      ],
+      "default_priority": 5
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "description": "Sports news, results, analysis, and coverage of major sporting events and athletes",
+      "icon": "futbol",
+      "color": "#8BC34A",
+      "keywords": [
+        "sports",
+        "athletics",
+        "games",
+        "football",
+        "soccer",
+        "basketball",
+        "baseball",
+        "tennis",
+        "golf",
+        "olympics",
+        "athletes",
+        "tournaments",
+        "championships"
+      ],
+      "default_priority": 6
+    },
+    {
+      "id": "politics",
+      "name": "Politics",
+      "description": "Political news, government affairs, policy developments, elections, and international relations",
+      "icon": "landmark",
+      "color": "#795548",
+      "keywords": [
+        "politics",
+        "government",
+        "election",
+        "policy",
+        "legislation",
+        "congress",
+        "parliament",
+        "president",
+        "prime minister",
+        "senate",
+        "house",
+        "campaign",
+        "vote",
+        "democracy"
+      ],
+      "default_priority": 9
+    },
+    {
+      "id": "world",
+      "name": "World",
+      "description": "International news, global affairs, and developments from around the world",
+      "icon": "globe",
+      "color": "#3F51B5",
+      "keywords": [
+        "world",
+        "international",
+        "global",
+        "foreign",
+        "diplomatic",
+        "countries",
+        "nations",
+        "geopolitics",
+        "foreign policy",
+        "international relations"
+      ],
+      "default_priority": 9
+    },
+    {
+      "id": "climate",
+      "name": "Climate",
+      "description": "Climate change news, environmental issues, sustainability, and conservation efforts",
+      "icon": "cloud-sun",
+      "color": "#009688",
+      "keywords": [
+        "climate",
+        "environment",
+        "climate change",
+        "global warming",
+        "sustainability",
+        "conservation",
+        "renewable energy",
+        "carbon",
+        "emissions",
+        "pollution",
+        "green"
+      ],
+      "default_priority": 7
+    },
+    {
+      "id": "education",
+      "name": "Education",
+      "description": "Education news, learning innovations, academic research, and educational policy",
+      "icon": "graduation-cap",
+      "color": "#607D8B",
+      "keywords": [
+        "education",
+        "learning",
+        "schools",
+        "universities",
+        "colleges",
+        "teaching",
+        "students",
+        "academic",
+        "research",
+        "curriculum",
+        "pedagogy"
+      ],
+      "default_priority": 6
+    },
+    {
+      "id": "opinion",
+      "name": "Opinion",
+      "description": "Opinion pieces, editorials, commentary, and analysis from thought leaders",
+      "icon": "comment",
+      "color": "#9E9E9E",
+      "keywords": [
+        "opinion",
+        "editorial",
+        "commentary",
+        "analysis",
+        "perspective",
+        "viewpoint",
+        "column",
+        "op-ed"
+      ],
+      "default_priority": 4
+    }
+  ],
+  "topic_relationships": [
+    {
+      "topic": "artificial intelligence",
+      "related_categories": ["technology", "science", "business"],
+      "keywords": ["AI", "machine learning", "neural networks", "deep learning", "algorithms"]
+    },
+    {
+      "topic": "climate change",
+      "related_categories": ["climate", "science", "politics", "world"],
+      "keywords": ["global warming", "carbon emissions", "renewable energy", "sustainability"]
+    },
+    {
+      "topic": "covid-19",
+      "related_categories": ["health", "science", "politics", "business"],
+      "keywords": ["coronavirus", "pandemic", "vaccines", "public health", "lockdown"]
+    },
+    {
+      "topic": "cryptocurrency",
+      "related_categories": ["business", "technology"],
+      "keywords": ["bitcoin", "blockchain", "ethereum", "digital currency", "crypto"]
+    },
+    {
+      "topic": "us politics",
+      "related_categories": ["politics", "world"],
+      "keywords": ["congress", "white house", "president", "senate", "house of representatives"]
+    },
+    {
+      "topic": "eu",
+      "related_categories": ["world", "politics", "business"],
+      "keywords": ["european union", "europe", "brussels", "european commission"]
+    }
+  ],
+  "content_types": [
+    {
+      "id": "breaking",
+      "name": "Breaking News",
+      "description": "Urgent and developing news stories",
+      "priority_boost": 20
+    },
+    {
+      "id": "feature",
+      "name": "Feature Story",
+      "description": "In-depth, detailed reporting on a topic",
+      "priority_boost": 5
+    },
+    {
+      "id": "analysis",
+      "name": "Analysis",
+      "description": "Expert examination and interpretation of events",
+      "priority_boost": 8
+    },
+    {
+      "id": "opinion",
+      "name": "Opinion",
+      "description": "Subjective viewpoints and commentary",
+      "priority_boost": 0
+    },
+    {
+      "id": "investigative",
+      "name": "Investigative Report",
+      "description": "Original reporting uncovering hidden information",
+      "priority_boost": 10
+    },
+    {
+      "id": "explainer",
+      "name": "Explainer",
+      "description": "Educational content that clarifies complex topics",
+      "priority_boost": 5
+    }
+  ],
+  "category_relevance": {
+    "general": 1.0,
+    "politics": 0.9,
+    "world": 0.9,
+    "business": 0.8,
+    "technology": 0.8,
+    "health": 0.7,
+    "science": 0.7,
+    "climate": 0.7,
+    "sports": 0.6,
+    "entertainment": 0.5,
+    "education": 0.6,
+    "opinion": 0.4
+  }
+}
